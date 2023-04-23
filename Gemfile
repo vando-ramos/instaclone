@@ -66,3 +66,5 @@ end
 
 gem "webpacker"
 
+
+gem "rails-i18n", "~> 7.0"
