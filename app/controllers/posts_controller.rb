@@ -2,6 +2,8 @@ class PostsController < ApplicationController
   before_action :set_post, only: %i[ show ]
 
   def index
+    flash.now[:error] = 'Errrou'
+
     @posts = Post.all
   end
 
