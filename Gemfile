@@ -11,6 +11,8 @@ gem "pg", "~> 1.1"
 
 gem "puma", "~> 5.0"
 
+gem 'sass-rails'
+
 gem "importmap-rails"
 
 gem "turbo-rails"
@@ -61,4 +63,5 @@ gem "webpacker"
 gem "rails-i18n", "~> 7.0"
 
 gem "devise", "~> 4.9"
+
 gem "devise-i18n", "~> 1.11"
