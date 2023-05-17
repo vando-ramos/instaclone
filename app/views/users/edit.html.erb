@@ -3,8 +3,12 @@
     <h1>Edit your profile</h1>
 
     <div class="field">
-      <%= form.text_field :name, placeholder: 'Name' %>
+      <%= form.file_field :avatar %>
     </div>
+
+    <div class="field">
+      <%= form.text_field :name, placeholder: 'Name' %>
+    </div>    
 
     <div class="actions">
       <%= form.submit %>
