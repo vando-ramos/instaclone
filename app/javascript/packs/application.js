@@ -14,4 +14,3 @@ require("@rails/actiontext");
 
 Rails.start();
 ActiveStorage.start();
-
