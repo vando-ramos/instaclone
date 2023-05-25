@@ -12,7 +12,7 @@ class LikesController < ApplicationController
   end
 
   def destroy
-    render json:{ sucessful: @like.destroy }
+    render json:{ successful: @like.destroy }
   end
   
   private

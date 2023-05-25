@@ -1,4 +1,4 @@
-import Toastify from 'toastify-js';
+import Toastify from "toastify-js";
 
 document.addEventListener('DOMContentLoaded', () => {
   const backgroundColors = {
@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     alert: "#f44336",
     error: "#f44336"
   }
-  
+
   JSON.parse(document.body.dataset.flashMessages).forEach(flashMessage => {
     const [type, message] = flashMessage;
 
